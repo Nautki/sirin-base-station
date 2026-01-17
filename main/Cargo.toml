@@ -1,0 +1,10 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hackrfone = {version = "0.4.0", features = ["num-complex"]}
+rustradio = "0.15.1"
+num-complex = "0.4"
+crossbeam-channel = "0.5"

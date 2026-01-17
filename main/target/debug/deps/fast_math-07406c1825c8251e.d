@@ -1,0 +1,11 @@
+/Users/BrianL/Documents/Code/sirin-base-station/main/target/debug/deps/fast_math-07406c1825c8251e.d: /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/lib.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/log.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/atan.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/exp.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/float.rs
+
+/Users/BrianL/Documents/Code/sirin-base-station/main/target/debug/deps/libfast_math-07406c1825c8251e.rlib: /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/lib.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/log.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/atan.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/exp.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/float.rs
+
+/Users/BrianL/Documents/Code/sirin-base-station/main/target/debug/deps/libfast_math-07406c1825c8251e.rmeta: /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/lib.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/log.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/atan.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/exp.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/float.rs
+
+/Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/lib.rs:
+/Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/log.rs:
+/Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/atan.rs:
+/Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/exp.rs:
+/Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fast-math-0.1.1/src/float.rs:

@@ -1,0 +1,6 @@
+/Users/BrianL/Documents/Code/sirin-base-station/main/target/debug/deps/crossbeam_deque-c16017a42af09801.d: /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-deque-0.8.6/src/lib.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-deque-0.8.6/src/deque.rs
+
+/Users/BrianL/Documents/Code/sirin-base-station/main/target/debug/deps/libcrossbeam_deque-c16017a42af09801.rmeta: /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-deque-0.8.6/src/lib.rs /Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-deque-0.8.6/src/deque.rs
+
+/Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-deque-0.8.6/src/lib.rs:
+/Users/BrianL/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-deque-0.8.6/src/deque.rs:
