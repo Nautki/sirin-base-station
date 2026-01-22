@@ -1,0 +1,9 @@
+C:\Users\kippe\OneDrive\Desktop\sirin-base-station\main\target\debug\deps\fast_math-48062ce0ef2dcffb.d: C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\lib.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\log.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\atan.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\exp.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\float.rs
+
+C:\Users\kippe\OneDrive\Desktop\sirin-base-station\main\target\debug\deps\libfast_math-48062ce0ef2dcffb.rmeta: C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\lib.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\log.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\atan.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\exp.rs C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\float.rs
+
+C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\lib.rs:
+C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\log.rs:
+C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\atan.rs:
+C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\exp.rs:
+C:\Users\kippe\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fast-math-0.1.1\src\float.rs:
