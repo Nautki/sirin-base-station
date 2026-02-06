@@ -5,6 +5,8 @@ import signal
 import numpy as np
 import gnuradio.lora_sdr as lora_sdr
 from gnuradio import soapy
+import base64
+import pmt
 
 class lora_RX(gr.top_block):
     def __init__(self):
@@ -16,13 +18,13 @@ class lora_RX(gr.top_block):
         self.soft_decoding = soft_decoding = True
         self.sf = sf = 7
         self.center_freq = center_freq = 434.5e6
-        self.bw = bw = 125000
-        self.samp_rate = samp_rate = 2_000_000 
+        self.bw = bw = 125_000
+        self.samp_rate = samp_rate = 2_000_000
         self.cr = cr = 1
         self.impl_head = impl_head = False
         self.has_crc = has_crc = False
         self.pay_len = pay_len = 256
-        self.sync_word = sync_word = 0x1E
+        self.sync_word = sync_word = 0x12
 
         ##################################################
         # Soapy HackRF Source
@@ -63,7 +65,7 @@ class lora_RX(gr.top_block):
         self.msg_connect((self.lora_sdr_header_decoder_0, 'frame_info'), (self.lora_sdr_frame_sync_0, 'frame_info'))
         
         # Packet Printing Connection
-        self.msg_connect((self.lora_sdr_crc_verif_0, 'out'), (self.blocks_message_debug_0, 'print'))
+        self.msg_connect((self.lora_sdr_crc_verif_0, 'msg'), (self.blocks_message_debug_0, 'print'))
 
         self.connect((self.soapy_source_0, 0), (self.lora_sdr_frame_sync_0, 0))
         self.connect((self.lora_sdr_frame_sync_0, 0), (self.lora_sdr_fft_demod_0, 0))
@@ -73,6 +75,34 @@ class lora_RX(gr.top_block):
         self.connect((self.lora_sdr_hamming_dec_0, 0), (self.lora_sdr_header_decoder_0, 0))
         self.connect((self.lora_sdr_header_decoder_0, 0), (self.lora_sdr_dewhitening_0, 0))
         self.connect((self.lora_sdr_dewhitening_0, 0), (self.lora_sdr_crc_verif_0, 0))
+
+class PrintBase64(gr.basic_block):
+    def __init__(self):
+        gr.basic_block.__init__(self,
+            name="PrintBase64",
+            in_sig=None,
+            out_sig=None)
+        # Register an input message port named 'in'
+        self.message_port_register_in(pmt.intern('in'))
+        self.set_msg_handler(pmt.intern('in'), self.handle_msg)
+
+    def handle_msg(self, msg):
+        try:
+            # PDU is a pair: (metadata_dict, data_vector)
+            # pmt.cdr(msg) gets the data_vector part
+            payload = pmt.cdr(msg)
+            
+            # Convert the PDU u8vector to a standard Python byte array
+            data_bytes = bytes(pmt.u8vector_elements(payload))
+            
+            # Encode to Base64
+            b64_str = base64.b64encode(data_bytes).decode('utf-8')
+            
+            print(f"Base64 Message: {b64_str}")
+        except Exception as e:
+            print(f"Error decoding message: {e}")
+
+
 
 def main():
     tb = lora_RX()
